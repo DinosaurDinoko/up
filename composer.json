@@ -14,7 +14,8 @@
         "php": "^7.4 | ^8.1",
         "nikic/fast-route": "2.0.x-dev",
         "illuminate/database": "10.x-dev",
-        "illuminate/events": "10.x-dev"
+        "illuminate/events": "10.x-dev",
+        "dinosaurdinoko/collect": "dev-master"
     },
     "autoload": {
         "psr-4": {

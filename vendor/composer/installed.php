@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'dinosaurdinoko/pnss',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => 'd4a1495744b0a1c21391599a6a64f0026430d108',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -30,10 +30,21 @@
             ),
             'dev_requirement' => false,
         ),
+        'dinosaurdinoko/collect' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'f9bbf801824359738b04beef50599c5a4d13655b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../dinosaurdinoko/collect',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'dinosaurdinoko/pnss' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'd4a1495744b0a1c21391599a6a64f0026430d108',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

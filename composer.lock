@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "485e61843cf45435ecadc8c0fb097548",
+    "content-hash": "80e06572be5d0b81f7df580f65580bb6",
     "packages": [
         {
             "name": "brick/math",
@@ -130,6 +130,50 @@
                 }
             ],
             "time": "2023-10-01T14:36:55+00:00"
+        },
+        {
+            "name": "dinosaurdinoko/collect",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DinosaurDinoko/collect.git",
+                "reference": "f9bbf801824359738b04beef50599c5a4d13655b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DinosaurDinoko/collect/zipball/f9bbf801824359738b04beef50599c5a4d13655b",
+                "reference": "f9bbf801824359738b04beef50599c5a4d13655b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Collect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DinosaurDinoko",
+                    "email": "mega.lelya1235@gmail.com"
+                }
+            ],
+            "description": "o",
+            "support": {
+                "issues": "https://github.com/DinosaurDinoko/collect/issues",
+                "source": "https://github.com/DinosaurDinoko/collect/tree/master"
+            },
+            "time": "2023-11-10T15:28:03+00:00"
         },
         {
             "name": "doctrine/inflector",

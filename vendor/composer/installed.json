@@ -132,6 +132,53 @@
             "install-path": "../carbonphp/carbon-doctrine-types"
         },
         {
+            "name": "dinosaurdinoko/collect",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DinosaurDinoko/collect.git",
+                "reference": "f9bbf801824359738b04beef50599c5a4d13655b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DinosaurDinoko/collect/zipball/f9bbf801824359738b04beef50599c5a4d13655b",
+                "reference": "f9bbf801824359738b04beef50599c5a4d13655b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.1"
+            },
+            "time": "2023-11-10T15:28:03+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Collect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DinosaurDinoko",
+                    "email": "mega.lelya1235@gmail.com"
+                }
+            ],
+            "description": "o",
+            "support": {
+                "issues": "https://github.com/DinosaurDinoko/collect/issues",
+                "source": "https://github.com/DinosaurDinoko/collect/tree/master"
+            },
+            "install-path": "../dinosaurdinoko/collect"
+        },
+        {
             "name": "doctrine/inflector",
             "version": "2.1.x-dev",
             "version_normalized": "2.1.9999999.9999999-dev",

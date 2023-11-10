@@ -1,0 +1,24 @@
+{
+    "name": "dinosaurdinoko/collect",
+    "description": "o",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DinosaurDinoko",
+            "email": "mega.lelya1235@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
