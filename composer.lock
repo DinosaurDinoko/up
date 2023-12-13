@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80e06572be5d0b81f7df580f65580bb6",
+    "content-hash": "3f69865b963a3b3ed34379cf124131c5",
     "packages": [
         {
             "name": "brick/math",
@@ -174,6 +174,50 @@
                 "source": "https://github.com/DinosaurDinoko/collect/tree/master"
             },
             "time": "2023-11-10T15:28:03+00:00"
+        },
+        {
+            "name": "dinosaurdinoko/demo-collect",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DinosaurDinoko/demo-collect.git",
+                "reference": "d649918756f7a9b811e447cf9ec0fedbbf6dc717"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DinosaurDinoko/demo-collect/zipball/d649918756f7a9b811e447cf9ec0fedbbf6dc717",
+                "reference": "d649918756f7a9b811e447cf9ec0fedbbf6dc717",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Collect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DinosaurDinoko",
+                    "email": "mega.lelya1235@gmail.com"
+                }
+            ],
+            "description": "demo",
+            "support": {
+                "issues": "https://github.com/DinosaurDinoko/demo-collect/issues",
+                "source": "https://github.com/DinosaurDinoko/demo-collect/tree/master"
+            },
+            "time": "2023-12-13T14:02:27+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1627,12 +1671,14 @@
     "stability-flags": {
         "nikic/fast-route": 20,
         "illuminate/database": 20,
-        "illuminate/events": 20
+        "illuminate/events": 20,
+        "dinosaurdinoko/collect": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4 | ^8.1"
+        "php": "^7.4 | ^8.1",
+        "ext-json": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"

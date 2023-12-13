@@ -81,3 +81,4 @@ class Collect
         return $this;
     }
 }
+

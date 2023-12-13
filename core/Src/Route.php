@@ -4,6 +4,7 @@ namespace Src;
 
 use Error;
 
+use FastRoute\Dispatcher as DispatcherAlias;
 use FastRoute\RouteCollector;
 use FastRoute\RouteParser\Std;
 use FastRoute\DataGenerator\MarkBased;
@@ -25,7 +26,7 @@ class Route
     private RouteCollector $routeCollector;
 
     //Добавляет маршрут, устанавливает его текущим и возвращает объект
-    public static function add($httpMethod, string $route, array $action): self
+    public static function add($httpMethod, string $route, $action): self
     {
         self::single()->routeCollector->addRoute($httpMethod, $route, $action);
         self::single()->currentHttpMethod = $httpMethod;
@@ -86,11 +87,11 @@ class Route
 
         $routeInfo = $dispatcher->dispatch($httpMethod, $uri);
         switch ($routeInfo[0]) {
-            case Dispatcher::NOT_FOUND:
+            case DispatcherAlias::NOT_FOUND:
                 throw new Error('NOT_FOUND');
-            case Dispatcher::METHOD_NOT_ALLOWED:
+            case DispatcherAlias::METHOD_NOT_ALLOWED:
                 throw new Error('METHOD_NOT_ALLOWED');
-            case Dispatcher::FOUND:
+            case DispatcherAlias::FOUND:
                 $handler = $routeInfo[1];
                 $vars = array_values($routeInfo[2]);
 //Вызываем обработку всех Middleware

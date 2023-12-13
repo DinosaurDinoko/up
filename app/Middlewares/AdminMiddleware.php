@@ -10,9 +10,7 @@ class AdminMiddleware
     public function handle(Request $request)
     {
         //Если пользователь не авторизован, то редирект на страницу входа
-        if (Auth::checkrole()) {
-            app()->route->redirect('/hello');
-        }
+        if (Auth::checkrole()) app()->route->redirect('/hello');
 
     }
 }

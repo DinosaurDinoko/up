@@ -152,7 +152,7 @@
             "time": "2023-11-10T15:28:03+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "src/helpers.php"
@@ -177,6 +177,53 @@
                 "source": "https://github.com/DinosaurDinoko/collect/tree/master"
             },
             "install-path": "../dinosaurdinoko/collect"
+        },
+        {
+            "name": "dinosaurdinoko/demo-collect",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DinosaurDinoko/demo-collect.git",
+                "reference": "d649918756f7a9b811e447cf9ec0fedbbf6dc717"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DinosaurDinoko/demo-collect/zipball/d649918756f7a9b811e447cf9ec0fedbbf6dc717",
+                "reference": "d649918756f7a9b811e447cf9ec0fedbbf6dc717",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.1"
+            },
+            "time": "2023-12-13T14:02:27+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Collect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "DinosaurDinoko",
+                    "email": "mega.lelya1235@gmail.com"
+                }
+            ],
+            "description": "demo",
+            "support": {
+                "issues": "https://github.com/DinosaurDinoko/demo-collect/issues",
+                "source": "https://github.com/DinosaurDinoko/demo-collect/tree/master"
+            },
+            "install-path": "../dinosaurdinoko/demo-collect"
         },
         {
             "name": "doctrine/inflector",

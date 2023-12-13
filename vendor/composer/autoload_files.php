@@ -13,6 +13,7 @@ return array(
     'a1105708a18b76903365ca1c4aa61b02' => $vendorDir . '/symfony/translation/Resources/functions.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     '59ef1b50c122f8444e466b962b31f90f' => $vendorDir . '/dinosaurdinoko/collect/src/helpers.php',
+    'ab6b7418367644b9592e4ceb7ea240f1' => $vendorDir . '/dinosaurdinoko/demo-collect/src/helpers.php',
     'ef65a1626449d89d0811cf9befce46f0' => $vendorDir . '/illuminate/events/functions.php',
     '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
 );

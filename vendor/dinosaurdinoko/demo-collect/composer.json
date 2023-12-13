@@ -1,6 +1,6 @@
 {
-    "name": "dinosaurdinoko/collect",
-    "description": "o",
+    "name": "dinosaurdinoko/demo-collect",
+    "description": "demo",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -22,3 +22,4 @@
         ]
     }
 }
+

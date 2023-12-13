@@ -15,7 +15,7 @@ class Middleware
 
     private RouteCollector $middlewareCollector;
 
-    public function add($httpMethod, string $route, array $action): void
+    public function add($httpMethod, string $route, $action): void
     {
         $this->middlewareCollector->addRoute($httpMethod, $route, $action);
     }

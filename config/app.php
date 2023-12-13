@@ -1,5 +1,10 @@
 <?php
 return [
+
+    'tls_settings' => [
+        'disable-tls' => true,
+        // Другие настройки TLS, если есть...
+    ],
 //Класс аутентификации
     'auth' => \Src\Auth\Auth::class,
 //Клас пользователя
