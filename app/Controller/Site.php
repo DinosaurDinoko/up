@@ -148,14 +148,6 @@ class Site
         app()->route->redirect('/hello');
     }
 
-    public function searchdb(Request $request): string
-    {
-        // var_dump($request->search); die();
-        $room = Room::where('name','LIKE',"%{$request->search}%")->get();
-
-        //var_dump($room[0]); die();
-        return (new View())->render('site.searchdb', ['room' => $room]);
-    }
 
 
 

@@ -2,7 +2,7 @@
 return [
     'driver' => 'mysql',
     'host' => 'localhost',
-    'database' => 'ka',
+    'database' => 'lena',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',

@@ -3,6 +3,7 @@
 namespace Src\Auth;
 use Src\Session;
 
+
 class Auth
 {
     //Свойство для хранения любого класса, реализующего интерфейс IdentityInterface
@@ -54,9 +55,10 @@ class Auth
     //Выход текущего пользователя
     public static function logout(): bool
     {
-        collectionSession()->clear('id');
+        Session::clear('id');
         return true;
     }
+
 
     public static function checkrole(): bool
     {
@@ -70,8 +72,7 @@ class Auth
     public static function generateCSRF(): string
     {
         $token = md5(time());
-        collectionSession()->set('csrf_token', $token);
+        Session::set('csrf_token', $token);
         return $token;
     }
-
 }

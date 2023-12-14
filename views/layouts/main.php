@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/public/css/style.css">
-    <title>UPPNSS</title>
+    <title>Главная</title>
 </head>
 <body>
 <header>
@@ -23,11 +23,7 @@
             <a href="<?= app()->route->getUrl('/Subdivisions') ?>">Подразделения</a>
             <a href="<?= app()->route->getUrl('/AddUser') ?>">Добавление пользователя</a>
             <a href="<?= app()->route->getUrl('/Calculations') ?>">Расчеты</a>
-            <a href="<?= app()->route->getUrl('/logout') ?>">Выход (<?= app()->auth::user()->name ?>)</a> <img class="img_user" src="/pnssssssssss/public/assets/img/<?= app()->auth::user()->photo ?>" alt="">
-            <form  method="get" action="<?= app()->route->getUrl('/searchdb') ?>"  id="searchform">
-                <input  type="text" name="search">
-                <input class="search" type="submit" name="submit" value="Search">
-            </form>
+            <a href="<?= app()->route->getUrl('/logout') ?>">Выход (<?= app()->auth::user()->name ?>)</a> <img class="img_user" src="/public/assets/img/<?= app()->auth::user()->photo ?>" alt="">
         <?php
         endif;
         ?>
@@ -38,7 +34,6 @@
 </main>
 <footer>
     <div class="fot_back">
-        <h2 class="fot_Author">Prod Dany</h2>
     </div>
 </footer>
 </body>

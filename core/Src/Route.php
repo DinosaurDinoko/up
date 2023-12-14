@@ -12,6 +12,8 @@ use FastRoute\Dispatcher\MarkBased as Dispatcher;
 use Src\Traits\SingletonTrait;
 class Route
 {
+    private static array $routes = [];
+
     //Используем методы трейта
     use SingletonTrait;
 

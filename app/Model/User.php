@@ -48,7 +48,7 @@ class User extends Model implements IdentityInterface
 
     public function photo($img)
     {
-        $photo = User . phptime() . $img['name'];
+        $photo = 'user_' . time() . '_' . $img['name']; // Формируем уникальное имя файла
         $this->photo = $photo;
         move_uploaded_file($img['tmp_name'], __DIR__ . '/../../public/assets/img/' . $photo);
     }

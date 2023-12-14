@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'dinosaurdinoko/pnss',
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
-        'reference' => '2a681a92902f003f3df022c3742c7d35a84b01f7',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '8e60f495d219171b3c9740eb4726212be8753f9d',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,20 +22,9 @@
         'carbonphp/carbon-doctrine-types' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '49856fbc09fe91b5433381faec60e3620ad364ad',
+            'reference' => 'a31d3358a2a5d6ae947df1691d1f321418a5f3d5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../carbonphp/carbon-doctrine-types',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
-            'dev_requirement' => false,
-        ),
-        'dinosaurdinoko/collect' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => 'f9bbf801824359738b04beef50599c5a4d13655b',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../dinosaurdinoko/collect',
             'aliases' => array(
                 0 => '9999999-dev',
             ),
@@ -53,9 +42,9 @@
             'dev_requirement' => false,
         ),
         'dinosaurdinoko/pnss' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '2a681a92902f003f3df022c3742c7d35a84b01f7',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '8e60f495d219171b3c9740eb4726212be8753f9d',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -73,7 +62,7 @@
         'illuminate/bus' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => 'aba48b9b7b9266a62b8e5ece47919533b3d49de7',
+            'reference' => 'cb5e55e701a530222f62968086973bf70b2552e8',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/bus',
             'aliases' => array(),
@@ -82,7 +71,7 @@
         'illuminate/collections' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => 'bb8784ce913bd46f944b4bd67cd857f40d9cfe68',
+            'reference' => '8e4c4f97ea066cd6aec962ef8a6abc09dfd5e754',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/collections',
             'aliases' => array(),
@@ -109,7 +98,7 @@
         'illuminate/contracts' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => '6c39fba7b2311e28f5c6ac7d729e3d49a2a98406',
+            'reference' => 'f6bf37a272fda164f6c451407c99f820eb1eb95b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/contracts',
             'aliases' => array(),
@@ -118,7 +107,7 @@
         'illuminate/database' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => 'dab47aabcc14e27a531dee53fb588c81dc557072',
+            'reference' => 'dff792e535f4a581d89b027bed5bb26972a5c056',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/database',
             'aliases' => array(),
@@ -127,7 +116,7 @@
         'illuminate/events' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => 'e8cbfa31e1ada8d178ffcd7a5e26e101ec280c59',
+            'reference' => '8d84d6220a6b3446a0bf3e4138e2eb0e10792bb1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/events',
             'aliases' => array(),
@@ -154,7 +143,7 @@
         'illuminate/support' => array(
             'pretty_version' => '10.x-dev',
             'version' => '10.9999999.9999999.9999999-dev',
-            'reference' => 'e46e5864314d59fa690637e51d6cd2113acb2e7b',
+            'reference' => 'c28657bdda8014017197e2a40edd7d162ce03e8a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../illuminate/support',
             'aliases' => array(),
@@ -163,7 +152,7 @@
         'nesbot/carbon' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b02302e73807ef75d3f9c5debdf4b85a4c072d73',
+            'reference' => 'a29411a5826afa0953a42f85b14fcc71e8e2d425',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nesbot/carbon',
             'aliases' => array(
@@ -174,7 +163,7 @@
         'nikic/fast-route' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '7a2713cd21389e280b75af9a9ad646f75124890c',
+            'reference' => 'bf21def855d2f8bec6e88597d0e7522bbae124c5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nikic/fast-route',
             'aliases' => array(
@@ -257,7 +246,7 @@
         'symfony/translation' => array(
             'pretty_version' => '6.4.x-dev',
             'version' => '6.4.9999999.9999999-dev',
-            'reference' => '1df3b64ada88d18efb1c662a476c8f3a648710d5',
+            'reference' => '05d681ee22bd1ed07a5468544c408fe696bda7b0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation',
             'aliases' => array(),
@@ -266,7 +255,7 @@
         'symfony/translation-contracts' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9fca65891b3305a38959d766b3bb13ef35ff0600',
+            'reference' => 'dee0c6e5b4c07ce851b462530088e64b255ac9c5',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation-contracts',
             'aliases' => array(
